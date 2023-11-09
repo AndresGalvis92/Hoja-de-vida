@@ -1,0 +1,44 @@
+/* Estilos para el encabezado */
+/* Estilos para el encabezado */
+header {
+    background-color: #a9dfbf; /* Cambia este color al verde claro que desees */
+    color: #0c0a0a;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    background-color: #a9dfbf;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #080606;
+    font-size: 18px;
+}
+
+/* Estilos generales */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos para contenido de la hoja de vida se agregarían a continuación */
+
+
+/* Estilos para contenido de la hoja de vida se agregarían a continuación */

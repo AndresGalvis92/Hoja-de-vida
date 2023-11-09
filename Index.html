@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Carlos Andres Galvis</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Proyectos</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="proyectos" class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">                        
+                        <div class="card-body">
+                          <h5 class="card-title">Proyecto 1</h5>
+                          <p class="card-text">Descripcion del proyecto</p>
+                          <a href="#" class="btn btn-primary">Conocer</a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">                        
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto 2</h5>
+                      <p class="card-text">Descripcion del proyecto</p>
+                      <a href="#" class="btn btn-primary">Conocer</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">                        
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto 3</h5>
+                      <p class="card-text">Descripcion del proyecto</p>
+                      <a href="#" class="btn btn-primary">Conocer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-center md-auto">Sobre mí.</h2>
+            <p class="text">Mi nombre es Carlos Andres Galvis,<br> Tengo 30 años <br> Soy amante a la naturaleza y a la tecnologia
+            <br>Padre de una niña de 4 años </p>
+        </div>
+        </div>
+        </div>
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col md-">
+            </div>
+            <div id="facebook" class="col col md-2">
+                <i  class="fa-brands fa-facebook">Facebook</i>
+            </div>
+            <div id="instagram"class="col col md-2">
+                <i class="fa-brands fa-instagram">Instagram</i>
+            </div>
+            <div id="whatsapp"class="col col md-2">
+                <i class="fa-brands fa-whatsapp">Whatsapp</i>
+            </div>
+            <div id="whatsapp"class="col col md-2">
+                <i class="fa-brands fa-github">Git-hub</i>
+            </div>
+        </div>    
+    </div>
+    </footer>
+</html>
